@@ -27,7 +27,7 @@ int* search_debug(int *array, int n) {
     	return array;
 }
 
-int* seach_release(int *array, int n) {
+int* search_release(int *array, int n) {
   	int min, max , minc, maxc;
         min = *array;
         max = *array;

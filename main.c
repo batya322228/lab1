@@ -19,11 +19,11 @@ int main()
     	{
        		case 1:
 			printf ("\nRelease version : \n");
-			// array = search_release (array, n);
+			array = search_release (array, n);
 			break;
 		case 2:
 			printf ("\nDebug version : \n");
-			// array = search_debug (array, n);
+			array = search_debug (array, n);
 			break;
 		default:
 			printf("Error");

@@ -12,4 +12,5 @@ int* input(int *array, int n)
 			*(array + i*n + j) = rand ()%9 + 0;
 		}	
 	}
+	return array;
 }
