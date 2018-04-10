@@ -7,7 +7,7 @@ void output(int *array, int n)
     	{
 		for (int j = 0; j < n; j++ ) 
         	{
-			printf ("\t%d", *(array + i*n + j));
+			printf ( " %d", *(array + i*n + j));
 		}
 		printf("\n");
 	}

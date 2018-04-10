@@ -5,6 +5,6 @@
 #include "stdlib.h"
 #include "time.h"
 
-#define N 10
+#define N 5
 
 #endif

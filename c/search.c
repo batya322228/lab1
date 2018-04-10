@@ -6,7 +6,7 @@ int* search_debug(int *array, int n) {
 	min = *array;
 	max = *array;
 	
-	for (int i = 1; i < n - 1; i++) 
+	for (int i = 1; i < n; i++) 
     	{
         	if(*(array + i*n + i) > max)
         	{
@@ -19,8 +19,8 @@ int* search_debug(int *array, int n) {
             		minc = i;
         	}
 	}
-	printf("first max value was found at [%d][%d] = %d\n", maxc, maxc, max);
-    	printf("last miv value was found at [%d][%d] = %d\n", minc, minc, min);
+	printf("first max value was found at [%d][%d] = %d\n", maxc + 1, maxc + 1, max);
+    	printf("last miv value was found at [%d][%d] = %d\n", minc + 1 , minc + 1, min);
     	*(array + maxc*n + maxc) = min;
     	*(array + minc*n + minc) = max;
     	printf("swap\n");
@@ -32,7 +32,7 @@ int* search_release(int *array, int n) {
         min = *array;
         max = *array;
         
-        for (int i = 1; i < n - 1; i++) 
+        for (int i = 1; i < n; i++) 
         {
                 if(*(array + i*n + i) > max)
                 {

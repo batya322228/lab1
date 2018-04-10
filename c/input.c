@@ -3,7 +3,6 @@
 
 int* input(int *array, int n)
 {
-	printf("kek");
 	srand(time(NULL));
 	for (int i = 0; i < n; i++)
 	{ 

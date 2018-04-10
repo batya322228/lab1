@@ -7,10 +7,8 @@ int main()
 {
 	int choose;
 	const int n = N;
-	printf("init");
 	int *array = (int *)malloc(n * n * sizeof(int));
 	array = input(array, n);
-	printf("Input complited");
     	output(array, n);
     	printf("Press - 1 (Release version)\n Press -2 (Debug version)\n");
     	printf("Enter your choose: ");

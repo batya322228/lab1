@@ -15,4 +15,6 @@ input.o: input.c
 	gcc -c input.c
 
 clean:
-	rm -rvf *.o 1
+	rm -rvf *.o run
+
+re: clean all
